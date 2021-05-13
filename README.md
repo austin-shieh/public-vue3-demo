@@ -1,4 +1,4 @@
-# cmss-saims
+# vue3-typescript-demo
 
 ## Project setup
 ```
