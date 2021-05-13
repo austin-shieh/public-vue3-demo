@@ -1,0 +1,46 @@
+@import './normalize.styl'
+@import './variable.styl'
+
+html
+  width 100%
+  height 100%
+  min-width 1200px
+  min-height 600px
+body
+  width 100%
+  height 100%
+#app
+  width 100%
+  height 100%
+  box-sizing border-box
+  overflow hidden
+.page-view
+  flex 1
+  box-sizing border-box
+  overflow hidden
+.side-menu-popover
+  max-width 400px !important
+  min-width 250px !important
+  background #1f3fcd !important
+  padding 10px 0 20px !important
+  border-radius 15px !important
+  overflow hidden !important
+  box-shadow 5px 5px 10px 0 #1f3fcd !important
+  border none !important
+.el-scrollbar__thumb
+  background rgba(255,255,255,0.7) !important
+
+::-webkit-scrollbar
+  /*滚动条整体样式*/
+  width 10px  /*高宽分别对应横竖滚动条的尺寸*/
+  height 10px
+::-webkit-scrollbar-thumb
+  /*滚动条里面小方块*/
+  border-radius 10px
+  box-shadow inset 0 0 0 rgba(0, 0, 0, 0)
+  background #e5e5e5
+::-webkit-scrollbar-track 
+  /*滚动条里面轨道*/
+  box-shadow inset 0 0 0   rgba(0, 0, 0, 0)
+  border-radius 10px
+  background #f5f5f5
